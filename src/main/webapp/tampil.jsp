@@ -25,6 +25,12 @@
     <p><strong>ID:</strong> <%= id %></p>
     <p><strong>Alamat:</strong></p>
     <p><%= alamat %></p>
+    
+     <!-- Delete button to redirect to message.jsp -->
+    <br>
+    <form action="message.jsp" method="post">
+        <input type="submit" value="Delete Data">
+    </form>
 
     <br><a href="login.jsp">Kembali</a>
 </body>
