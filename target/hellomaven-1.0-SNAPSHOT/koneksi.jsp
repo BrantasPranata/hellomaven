@@ -21,7 +21,7 @@ try {
     // Membuat koneksi
     conn = DriverManager.getConnection(url, user, password);
 
-    out.println("Koneksi ke database berhasil!");
+   // out.println("Koneksi ke database berhasil!");
 
 } catch (ClassNotFoundException e) {
     out.println("Driver JDBC tidak ditemukan!");
